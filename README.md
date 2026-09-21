@@ -8,7 +8,10 @@
 > directly.
 
 - **Formats:** VST3, CLAP
-- **Platforms:** Windows first. macOS and Linux planned — no date yet.
+- **Platforms:** Windows first. macOS has been built, and its installer is
+  written — universal, signed and notarized — but the platform has not been
+  through a release check, so it is not promised for the first release.
+  Linux (VST3 + LV2) after that.
 - **Status:** In development, pre-release
 
 ## Links
