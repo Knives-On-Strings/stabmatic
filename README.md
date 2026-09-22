@@ -8,10 +8,10 @@
 > directly.
 
 - **Formats:** VST3, CLAP
-- **Platforms:** Windows first. macOS has been built, and its installer is
-  written — universal, signed and notarized — but the platform has not been
-  through a release check, so it is not promised for the first release.
-  Linux (VST3 + LV2) after that.
+- **Platforms:** Windows first, with macOS close behind — its installer and
+  disk image both build (universal, signed, notarized). The first release is
+  Windows only because that is the scope that was set, not because macOS is
+  unfinished. Linux (VST3 + LV2) after that.
 - **Status:** In development, pre-release
 
 ## Links
