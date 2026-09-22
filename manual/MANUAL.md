@@ -175,7 +175,7 @@ the **name button**: it shows the name of whatever chord form is currently
 loaded, and clicking it opens the chord browser. Beside the name is the
 **Save** button, which lights up whenever you've changed the loaded form
 without saving it. On the right: a **settings** button, an **about** button,
-a **MIDI** light that glows amber on any incoming note, and a **CPU**
+a **MIDI** light that glows pink on any incoming note, and a **CPU**
 meter showing how much processing time Stabmatic is using.
 
 **Capture and Bypass**, on the left of the row below the header. Capture
