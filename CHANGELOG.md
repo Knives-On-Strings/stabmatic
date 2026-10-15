@@ -14,10 +14,16 @@ reached a tester or a user (the owner, 2026-09-23)._
 
 ---
 
-## Unreleased — Stabmatic's maker code is corrected
+## 0.2.26 — built 2026-10-10 — macOS 10.15 and 11 minimum, maker code corrected
+
+0.2.25 was never released; it was an internal step, and nothing in it reached a tester or a user.
 
 ### Changed
 
+- **The macOS minimum is lower: macOS 10.15 on an Intel Mac, macOS 11 on an Apple
+  Silicon Mac.** It was macOS 15 Sequoia. The installer still refuses anything
+  older than that, and now also checks that the plugin inside was built for it.
+  (Owner decision O47, 2026-10-08.)
 - **Stabmatic now identifies itself to hosts with the company's maker code.**
   Every build up to 0.2.22 carried a one-letter case typo in it, so a host saw
   Stabmatic as coming from a different maker than every other Knives on
@@ -25,6 +31,31 @@ reached a tester or a user (the owner, 2026-09-23)._
   as a new plugin, and a project saved with one will not find it. No such
   build ever left the development machine, so nobody is affected; it is
   corrected now because after the first release it could never be.
+
+### Development
+
+- Stabmatic syncs shared files with the VST Builder boilerplate: a provenance record, a drift check and a
+  repo-hygiene step in its gate, and newer hooks and scripts taken from the boilerplate.
+
+---
+
+## 0.2.23 — built 2026-10-09 — report a bug from inside Stabmatic
+
+### Added
+
+- **Report a bug without leaving the plugin.** Open the About box and press
+  *Report a bug*. A form opens in your browser with Stabmatic's version, its
+  format and your host already filled in, and what you send lands on
+  Stabmatic's issue tracker. If the form can't be reached, Stabmatic shows you
+  its address so you can copy it instead.
+- **You decide whether Stabmatic helps us improve it.** The first time it
+  opens, Stabmatic asks once whether it may send anonymous usage data — never
+  audio, never MIDI, never anything personal. Say no and no usage data is
+  sent. You can change your mind at any time in Settings. Reporting a bug works
+  either way.
+
+The changes between 0.2.8 and 0.2.22 — mostly to how Stabmatic looks —
+aren't written up here yet.
 
 ---
 
