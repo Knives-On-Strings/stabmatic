@@ -46,7 +46,7 @@ This repo is for **bug reports** and **feature requests** only — no source cod
 
 - [Report a bug](https://github.com/Knives-On-Strings/stabmatic/issues/new?template=bug.yml)
 - [Request a feature](https://github.com/Knives-On-Strings/stabmatic/issues/new?template=feature.yml)
-- Email: knivesonstrings@gmail.com
+- Email: support@knivesonstrings.com
 
 ## About
 
