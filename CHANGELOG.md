@@ -94,7 +94,6 @@ entry covers everything since the 0.2.23 beta that you will notice.
 - **Improved:** **The macOS minimum is lower: macOS 10.15 on an Intel Mac, macOS 11 on an Apple
   Silicon Mac.** It was macOS 15 Sequoia. The installer still refuses anything
   older than that, and now also checks that the plugin inside was built for it.
-  (Owner decision O47, 2026-10-08.)
 - **Fixed:** **Stabmatic now identifies itself to hosts with the company's maker code.**
   Every build up to 0.2.22 carried a one-letter case typo in it, so a host saw
   Stabmatic as coming from a different maker than every other Knives on
